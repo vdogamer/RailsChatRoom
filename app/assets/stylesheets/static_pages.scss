@@ -1,3 +1,85 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	margin:0;
+	padding:0;
+}
+
+header h1{
+	color:white;
+	font-size:22px;
+	padding:15px 0 10px 10px;
+	border-bottom: 1px solid #ffffff;
+}
+
+body {
+	font-family: arial;
+	font-size:15px;
+	line-height:1.5m;
+	background: #f4f4f4;
+}
+
+#container {
+	background:#333333;
+	margin: 50px auto;
+	overflow:auto;
+	width:60%;
+	min-height:630px;
+	box-shadow: 10px 10px 5px gray;
+	border-radius: 30px;
+}
+
+#chats {
+	width:90%;
+	background:white;
+	height:400px;
+	-moz-box-shadow: 15px 15px 5px #ccc;
+	-webkit-box-shadow: 10px 10px 5px 6px #ccc;
+	box-shadow: 1px 3px 5px 6px #ccc;
+	margin: 20px auto;
+}
+
+.chats {
+	list-style: none;
+	padding:8px;
+	border-bottom: 1px #cccccc dotted;
+}
+
+#input{
+	width:90%;
+	min-height: 80px;
+	margin:auto;
+	padding:0;
+}
+
+#input input[type="text"]{
+	height:25px;
+	width:50%;
+	padding:3px;
+	margin-bottom:20px;
+	
+	-moz-box-shadow: 10px 10px 5px #ccc;
+	-webkit-box-shadow: 10px 10px 5px 6px #ccc;
+	box-shadow: 3px 2px 4px 5px #ccc;
+}
+
+#input .chat-btn {
+	padding:5px;
+	margin-bottom: 50px;
+	width:100%;
+	margin:10px auto;
+}
+
+.error {
+	background:red;
+	color:#ffffff;
+	padding:5px;
+	margin-bottom:20px;
+}
+
+@media only screen and (max-width:768px) {
+	#input input[type="text"]{
+		width:98%;
+	}
+}

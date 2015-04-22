@@ -2,6 +2,6 @@ class StaticPagesController < ApplicationController
   def index
   end
 
-  def process
+  def calculate
   end
 end

@@ -6,8 +6,8 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get process" do
-    get :process
+  test "should get calculate" do
+    get :calculate
     assert_response :success
   end
 
